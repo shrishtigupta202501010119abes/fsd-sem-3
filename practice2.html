@@ -1,0 +1,51 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form id="studentForm">
+        Name:
+        <input type="text" id="name" required>
+        <br><br>
+
+        Email:
+        <input type="email" id="email" required>
+        <br><br>
+
+        Age:
+        <input type="number" id="age" required>
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        Course:
+        <select id="course">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>IT</option>
+            <option>ME</option>
+        </select>
+        <br><br>
+
+        Phone:
+        <input type="text" id="phone">
+        <br><br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <h3 id="result"></h3>
+
+    <script src="script2.js"></script>
+</body>
+</html>
+```
